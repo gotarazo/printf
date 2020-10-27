@@ -9,7 +9,7 @@
 /**
 * struct conv_spec- Struct function that matches the @spec
 * @spec: Conversion specifier symbol
-* @func: Associated function 
+* @func: Associated function
 */
 
 typedef struct conv_spec
