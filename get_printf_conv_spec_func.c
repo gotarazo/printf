@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
-* get_printf_spec_func- Identify the function that matches the @spec
+* get_printf_conv_spec_func- Identify the function that matches the spec
 * @spec: Conversion specifier symbol
 * Return: Associated function
 */
