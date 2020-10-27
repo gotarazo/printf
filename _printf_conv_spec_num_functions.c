@@ -19,9 +19,8 @@ return (1 + get_binary(n / 2) + !_putchar(n % 2 + '0'));
 /**
 * _printf_conv_spec_b- Converts and prints arguments in base 10 to base 2
 * @args: Arguments to print
-* @n: Number to convert
 * Return: Number of characters printed
-*/
+**/
 
 int _printf_conv_spec_b(va_list args)
 {
@@ -77,9 +76,8 @@ return (1 + get_octal(n / 8) + !_putchar(n % 8 + '0'));
 /**
 * _printf_conv_spec_o- Converts and prints arguments in base 10 to base 8
 * @args: Argument to print
-* @n: Number to convert
 * Return: Number of characters printed
-*/
+**/
 
 int _printf_conv_spec_o(va_list args)
 {

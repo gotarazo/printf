@@ -23,9 +23,8 @@ return(1 + get_lower_hexa(n / 16) +
 }
 
 /**
-* _printf_conv_spec_x- Converts and prints arguments in base 10 to base 16
+* _printf_conv_spec_x - Converts and prints arguments in base 10 to base 16
 * @args: Arguments to print
-* @n: Number to convert
 * Return: Number of characters printed using lowercase
 */
 
@@ -36,7 +35,7 @@ return (get_lower_hexa(n));
 }
 
 /**
-* get_upper_hexa- Converts numbers base 10 in uppercase base 16
+* get_upper_hexa - Converts numbers base 10 in uppercase base 16
 * @n: Number to convert
 * Return: Hexadecimal number in uppercase
 */
@@ -58,9 +57,8 @@ return(1 + get_upper_hexa(n / 16) +
 }
 
 /**
-* _printf_conv_spec_X- Converts and prints arguments in base 10 to base 16
+* _printf_conv_spec_X - Converts and prints arguments in base 10 to base 16
 * @args: Arguments to print
-* @n: Number to convert
 * Return: Number of characters printed using uppercase
 */
 
@@ -69,3 +67,4 @@ int _printf_conv_spec_X(va_list args)
 unsigned int n = va_arg(args, unsigned int);
 return (get_upper_hexa(n));
 }
+
