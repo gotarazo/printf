@@ -6,7 +6,7 @@
 * Return: Hexadecimal number in lowercase
 */
 
-int get_lower_hexa(unsigned int n)
+int get_lower_hexa(long n)
 {
 if (n < 16)
 {
