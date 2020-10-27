@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
-* get_printf_spec_func- Identify the function that matches the @spec
+* get_printf_conv_spec_func- Identify the function that matches the spec
 * @spec: Conversion specifier symbol
 * Return: Associated function
 */
@@ -21,6 +21,10 @@ conv_spec_t f[] = {
 {"o", _printf_conv_spec_o},
 {"x", _printf_conv_spec_x},
 {"X", _printf_conv_spec_X},
+{"S", _printf_conv_spec_S},
+{"p", _printf_conv_spec_p},
+{"r", _printf_conv_spec_r},
+{"R", _printf_conv_spec_R},
 {NULL, NULL}
 };
 for (i = 0; f[i].spec != NULL; i++)
