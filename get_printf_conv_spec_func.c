@@ -17,6 +17,10 @@ conv_spec_t f[] = {
 {"d", _printf_conv_spec_d},
 {"i", _printf_conv_spec_i},
 {"b", _printf_conv_spec_b},
+{"u", _printf_conv_spec_u},
+{"o", _printf_conv_spec_o},
+{"x", _printf_conv_spec_x},
+{"X", _printf_conv_spec_X},
 {NULL, NULL}
 };
 for (i = 0; f[i].spec != NULL; i++)

@@ -38,5 +38,8 @@ int _printf_conv_spec_r(va_list args);
 int _printf_conv_spec_R(va_list args);
 
 int get_binary(unsigned int n);
+int get_octal(unsigned int n);
+int get_lower_hexa(unsigned int n);
+int get_upper_hexa(unsigned int n);
 
 #endif
