@@ -27,14 +27,16 @@ int _printf_conv_spec_s(va_list args);
 int _printf_conv_spec_P(va_list args);
 int _printf_conv_spec_d(va_list args);
 int _printf_conv_spec_i(va_list args);
+int _printf_conv_spec_b(va_list args);
 int _printf_conv_spec_u(va_list args);
 int _printf_conv_spec_o(va_list args);
 int _printf_conv_spec_x(va_list args);
 int _printf_conv_spec_X(va_list args);
 int _printf_conv_spec_S(va_list args);
-int _printf_conv_spec_b(va_list args);
 int _printf_conv_spec_p(va_list args);
 int _printf_conv_spec_r(va_list args);
 int _printf_conv_spec_R(va_list args);
+
+int get_binary(unsigned int n);
 
 #endif
